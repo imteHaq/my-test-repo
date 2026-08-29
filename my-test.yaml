@@ -1,1 +1,5 @@
-
+jwt:
+  secret: my-super-secret-key-my-super-secret-key
+spring:
+  application:
+    name: my-test
