@@ -1,0 +1,7 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: JobsPortal-Login-service
+  config:
+    import: optional:configserver:http://localhost:8008/my-test
